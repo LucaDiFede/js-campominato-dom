@@ -1,0 +1,25 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-container .cell {
+    width: 10%;
+    height: 80px;
+    line-height: 100px;
+    font-size: 30px;
+    border: 1px solid lawngreen;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-container .cell.cell-cliccata {
+    background-color: blue;
+    color: white;
+}
+
+.grid-container .bomb {
+    background-color: black;
+    color: black;
+}
